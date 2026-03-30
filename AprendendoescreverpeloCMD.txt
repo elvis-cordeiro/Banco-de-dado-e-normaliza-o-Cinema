@@ -1,1 +1,14 @@
 O comando principal é sempre Edit nomedapasta.txt 
+
+
+Comandos Principais
+Criar e mudar: git checkout -b minha-nova-branch
+Criar e mudar (mais moderno): git switch -c minha-nova-branch
+Apenas criar: git branch minha-nova-branch
+Listar branches: git branch 
+
+
+Atualize sua branch principal: git checkout main (ou master)
+Puxe as últimas alterações: git pull origin main
+Crie a nova branch: git checkout -b feature/nome-da-funcionalidade
+Envie a nova branch para o repositório remoto: git push -u origin feature/nome-da-funcionalidade
